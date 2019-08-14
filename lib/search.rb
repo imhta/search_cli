@@ -21,7 +21,7 @@ class SearchProviders
     tags = Nokogiri::HTML.parse(res).xpath('//a[@class="gems__gem"]')
     tags.each do |tag|
       if tag[:href].start_with?('/')
-        tag[:href] = "https://rubygems.org" + tag[:href]
+        tag[:href] = 'https://rubygems.org' + tag[:href]
       end
       Display.tags tag
     end
@@ -34,7 +34,7 @@ class SearchProviders
     tags = Nokogiri::HTML.parse(res).xpath('//a[@class="question-hyperlink"]')
     tags.each do |tag|
       if tag[:href].start_with?('/')
-        tag[:href] = "https://stackoverflow.com" + tag[:href]
+        tag[:href] = 'https://stackoverflow.com' + tag[:href]
       end
       Display.tags tag
     end
