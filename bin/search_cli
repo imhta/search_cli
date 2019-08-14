@@ -1,0 +1,9 @@
+# frozen_string_literal: true
+#!/usr/bin/env ruby
+require 'search'
+
+
+search = SearchProviders.method ARGV.first
+keyword = ARGV[1..-1].join(' ')
+search.call keyword
+
