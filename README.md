@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.com/imhta/search_cli.svg?branch=master)](https://travis-ci.com/imhta/search_cli)
 
-Search (bing. google, rubygem) from cli
+Search (bing. stackoverflow, rubygem) from cli
 
 ## Requirement
 - Ruby
