@@ -20,7 +20,7 @@ class SearchProviders
     res = RestClient.get "https://rubygems.org/search?utf8=%E2%9C%93&query=#{keyword}"
     tags = Nokogiri::HTML.parse(res).xpath('//a[@class="gems__gem"]')
     tags.each do |tag|
-      if tag[:href].start_with(/)
+      if tag[:href].start_with?('/')
         tag[:href] = "https://rubygems.org" + tag[:href]
       end
       Display.tags tag
@@ -33,7 +33,7 @@ class SearchProviders
     res = RestClient.get "https://stackoverflow.com/search?q=#{keyword}"
     tags = Nokogiri::HTML.parse(res).xpath('//a[@class="question-hyperlink"]')
     tags.each do |tag|
-      if tag[:href].start_with(/)
+      if tag[:href].start_with?('/')
         tag[:href] = "https://stackoverflow.com" + tag[:href]
       end
       Display.tags tag
