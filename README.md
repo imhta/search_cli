@@ -5,8 +5,7 @@
 Search (bing. google, rubygem) from cli
 
 ## Requirement
-
-    - Ruby
+- Ruby
 
 ## Installation
 
