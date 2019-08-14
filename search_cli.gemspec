@@ -3,7 +3,7 @@
 # search_cli.gemspec
 Gem::Specification.new do |s|
   s.name = 'search_cli'
-  s.version = '0.1.0'
+  s.version = '0.1.1'
   s.executables << 'search_cli'
   s.date        = '2019-08-14'
   s.summary     = 'ruby gem for search stackoverflow, bing, rubygem , etc,. from cli'
