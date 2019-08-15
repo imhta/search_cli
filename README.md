@@ -1,6 +1,6 @@
 # search_cli
 
-[![Build Status](https://travis-ci.com/imhta/search_cli.svg?branch=master)](https://travis-ci.com/imhta/search_cli)
+[![Build Status](https://travis-ci.com/imhta/search_cli.svg?branch=master)](https://travis-ci.com/imhta/search_cli) [![Gem Version](https://badge.fury.io/rb/search_cli.svg)](https://badge.fury.io/rb/search_cli)
 
 Search (bing. stackoverflow, rubygem) from cli
 
